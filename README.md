@@ -1,5 +1,7 @@
-MobileCommons REST API library for Node
+MobileCommons REST API library
 ====================================
+
+[![wercker status](https://app.wercker.com/status/28a614da7d707626b46502639874800e "wercker status")](https://app.wercker.com/project/bykey/28a614da7d707626b46502639874800e)
 
 A API wrapper for MobileCommons REST API.
 
