@@ -1,0 +1,34 @@
+{
+  "name": "node-mobilecommons",
+  "version": "0.0.1",
+  "description": "A API wrapper for MobileCommons REST API",
+  "author": "Desmond Morris",
+  "homepage": "https://github.com/desmondmorris/node-mobilecommons",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/desmondmorris/node-mobilecommons"
+  },
+  "dependencies": {
+    "xml2js": "*"
+  },
+  "keywords": [
+    "node-mobilecommons",
+    "mobilecommons",
+    "sms"
+  ],
+  "tags": [
+    "node-mobilecommons",
+    "mobilecommons",
+    "sms"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/desmondmorris/node-mobilecommons/raw/master/LICENSE"
+    }
+  ]
+}
