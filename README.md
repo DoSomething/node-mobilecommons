@@ -17,7 +17,7 @@ Usage
 
 The MobileCommons api uses basic auth for authentication.  
 
-    var MobileCommons = require('./lib/mobilecommons');
+    var MobileCommons = require('node-mobilecommons');
     var mc = new MobileCommons(
         'username',
         'password'
