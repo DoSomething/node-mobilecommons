@@ -15,6 +15,9 @@
   "dependencies": {
     "xml2js": "0.2.8"
   },
+  "devDependencies": {
+    "mocha": "*"
+  },
   "keywords": [
     "node-mobilecommons",
     "mobilecommons",
