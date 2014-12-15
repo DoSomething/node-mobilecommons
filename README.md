@@ -10,26 +10,24 @@ It currently only exposes a basic get method and a "messages" convenience endpoi
 Install
 -------
 
-    npm install node-mobilecommons
+    npm install mobilecommons
 
 Usage
 -----
 
 The MobileCommons api uses basic auth for authentication.  
 
-    var MobileCommons = require('node-mobilecommons');
+    var MobileCommons = require('mobilecommons');
     var mc = new MobileCommons(
         'username',
         'password'
     );
 
-    mc.messages({'include_profile': 1}, function(err, data) {
+    mc.get('messages', {'include_profile': 1}, function(err, data){
       console.log(data.response.messages[0].message);
     });
-
 
 Todo
 ----
 
-* Moar endpoints
 * Tests

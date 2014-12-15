@@ -1,6 +1,6 @@
 {
   "name": "mobilecommons",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "A API wrapper for MobileCommons REST API",
   "author": "Desmond Morris",
   "homepage": "https://github.com/DoSomething/node-mobilecommons",
@@ -9,10 +9,11 @@
     "type": "git",
     "url": "https://github.com/DoSomething/node-mobilecommons"
   },
-  "engines" : {
+  "engines": {
     "node": ">=0.8"
   },
   "dependencies": {
+    "request": "^2.51.0",
     "xml2js": "0.2.8"
   },
   "devDependencies": {
